@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile first */
+
+/* .square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 479px) {
+    .container {
+        display: flex;
+    }
+
+    .square {
+        margin-right: 5px;
+        background-color: pink;
+    }
+} */
+
+/* Desktop first */
+
+.container {
+    display: flex;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+    background-color: pink;
+}
+
+@media screen and (max-width: 478px) {
+    
+    .container {
+        display: block;
+    }
+
+    .square {
+        background-color: blue;
+        margin-bottom: 5px;
+    }
+
+}

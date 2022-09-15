@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 300px;
+    background-color: blue;
+}
+
+@media screen and (max-width: 479px) {
+
+    .container {
+        background-color: green;
+    }   
+}
+
+@media screen and (min-width: 1441px) {
+    .container {
+        background-color: palevioletred;
+    }
+}

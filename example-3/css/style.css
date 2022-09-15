@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    border: 1px solid red;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 780px) {
+    
+    .container {
+        width: 75%;
+    }
+
+    img {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    
+    img {
+        max-width: 100%;
+    }
+}

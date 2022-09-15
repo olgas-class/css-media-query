@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+@media screen and (max-width: 479px) {
+    .square {
+        border-radius: 50%;
+    }
+}
